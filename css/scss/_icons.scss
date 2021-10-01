@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/webfonts/fa-regular-400.eot");
+    src: url("../fonts/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-regular-400.woff2") format("woff2"), url("../fonts/webfonts/fa-regular-400.woff") format("woff"), url("../fonts/webfonts/fa-regular-400.ttf") format("truetype"), url("../fonts/webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+    @font-face {
+        font-family: 'Font Awesome 5 Brands';
+        font-style: normal;
+        font-weight: 400;
+        font-display: block;
+        src: url("../fonts/webfonts/fa-brands-400.eot");
+        src: url("../fonts/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-brands-400.woff2") format("woff2"), url("../fonts/webfonts/fa-brands-400.woff") format("woff"), url("../fonts/webfonts/fa-brands-400.ttf") format("truetype"), url("../fonts/webfonts/fa-brands-400.svg#fontawesome") format("svg"); 
+    }
+
+.icon-facebook::before{
+    content: '\f09a';
+    font-weight: 400;
+}
+.icon-in::before{
+    content: '\f7b0';
+    font-weight: 400;
+}
+.icon-twitter::before{
+    content: '\f099';
+    font-weight: 400;
+}
+.icon-gamepad::before{
+    content: '\f11b';
+    font-weight: 400;
+}
+.icon-gameplay::before{
+    content: '\f8bc';
+    font-weight: 400;
+}
+.icon-ixbox::before{
+    content: '\f412';
+    font-weight: 400;
+}
+
